@@ -45,8 +45,8 @@
     "prettier": "^2.4.1"
   },
   "prettier": {
-    "semi": false,
-    "singleQuote": true,
+    "semi": true,
+    "singleQuote": false,
     "tabWidth": 2,
     "trailingComma": "all"
   }
