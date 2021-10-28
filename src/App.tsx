@@ -57,13 +57,13 @@ const App = () => {
         <Background />
         <Controls />
         <MiniMap />
-        <MyDebugger setElements={setElements} />
+        <NodeCreator setElements={setElements} />
       </ReactFlow>
     </div>
   );
 };
 
-const MyDebugger = ({
+const NodeCreator = ({
   setElements,
 }: {
   setElements: React.Dispatch<React.SetStateAction<Elements>>;
